@@ -25,6 +25,8 @@ app.listen(PORT, (err) => {
   }
 });
 
+app.get("/test", (req,res) => {
+  res.json("Working") } )
 connection.connect((err) => {
   if (err) {
     console.log(err);
